@@ -1701,7 +1701,7 @@ html {
 
 /* line 27, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.3/assets/stylesheets/bootstrap/_scaffolding.scss */
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Noto Sans Japanese", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, Meiryo, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -7650,7 +7650,7 @@ button.close {
   z-index: 1070;
   display: block;
   visibility: visible;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Noto Sans Japanese", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, Meiryo, sans-serif;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.4;
@@ -7777,7 +7777,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Noto Sans Japanese", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, Meiryo, sans-serif;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.42857143;
@@ -8539,4 +8539,62 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+/* line 16, ../sass/_sil.scss */
+.sil-margin-xl {
+  margin: 48px;
+}
+
+/* line 20, ../sass/_sil.scss */
+.sil-margin-zero {
+  margin: 0;
+}
+
+/* line 24, ../sass/_sil.scss */
+.sil-padding-zero {
+  padding: 0;
+}
+
+/* line 28, ../sass/_sil.scss */
+.sil-margin-bottom-sm {
+  margin-bottom: 8px;
+}
+
+/* line 32, ../sass/_sil.scss */
+.sil-padding-bottom-sm {
+  padding-bottom: 8px;
+}
+
+/* line 36, ../sass/_sil.scss */
+.sil-bg {
+  background-color: #F9F9F9;
+  min-height: 100%;
+  height: auto;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* line 49, ../sass/_sil.scss */
+.sil-height-all {
+  height: 100%;
+}
+
+/* line 53, ../sass/_sil.scss */
+.sil-head-height {
+  height: 192px;
+}
+
+/* line 57, ../sass/_sil.scss */
+.sil-contents-head {
+  width: 100%;
+  background-color: #03A9F4;
+  margin: 0;
+  padding: 48px;
+}
+
+/* line 64, ../sass/_sil.scss */
+.sil-contents-head-text {
+  color: #FFFFFF;
+  margin-top: 60px;
+  padding: 0;
 }

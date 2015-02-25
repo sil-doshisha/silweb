@@ -1,0 +1,68 @@
+$color-dark-primary: #0288D1;
+$color-primary: #03A9F4;
+$color-light-primary: #B3E5FC;
+$color-text: #FFFFFF;
+$color-accent: #FF9800;
+$color-primary-text: #212121;
+$color-secondary-text: #727272;
+$color-divider: #B6B6B6;
+$color-contents-background: #F9F9F9;
+
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 48px;
+
+.sil-margin-xl {
+  margin: 48px;
+}
+
+.sil-margin-zero {
+  margin: 0;
+}
+
+.sil-padding-zero {
+  padding: 0;
+}
+
+.sil-margin-bottom-sm {
+  margin-bottom: $spacing-sm;
+}
+
+.sil-padding-bottom-sm {
+  padding-bottom: $spacing-sm;
+}
+
+.sil-bg {
+  background-color: $color-contents-background;
+  min-height: 100%;
+  height: auto;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.sil-list-margin {
+  // margin-top: $margin-sm;
+  // margin-bottom: $margin-sm;
+}
+
+.sil-height-all {
+  height: 100%;
+}
+
+.sil-head-height {
+  height: $spacing-xl * 4;
+}
+
+.sil-contents-head {
+  width: 100%;
+  background-color: $color-primary;
+  margin: 0;
+  padding: $spacing-xl;
+}
+
+.sil-contents-head-text {
+  color: $color-text;
+  margin-top : $font-size-h2 * 2;
+  padding: 0;
+}
